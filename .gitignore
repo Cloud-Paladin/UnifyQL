@@ -1,0 +1,11 @@
+# IDE
+.id
+.idea/*
+
+# Dependency directory
+node_modules
+
+# vim conifg
+.tern-project
+.*.swp
+.*.swo
