@@ -4580,7 +4580,7 @@ alasql.dexec = function (databaseid, sql, params, cb, scope) {
 	var ast = alasql.parse(sql);
 	console.log();
     for (let v of ast.statements)
-        console.log(v);
+          console.log(v);
 	if(!ast.statements){
 		return;
 	}
